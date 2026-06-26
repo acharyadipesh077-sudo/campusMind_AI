@@ -1,8 +1,7 @@
 """Thread-safe cache system with TTL and disk persistence."""
 import json
-import os
 import time
-from datetime import datetime, timedelta
+from datetime import timedelta
 from pathlib import Path
 from threading import Lock
 from typing import Any, Callable, Dict, Optional

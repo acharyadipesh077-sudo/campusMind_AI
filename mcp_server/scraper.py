@@ -1,7 +1,6 @@
 """Base scraper class with retry logic and caching."""
 import logging
 import random
-import time
 from typing import Any, Dict, Optional
 
 import requests
